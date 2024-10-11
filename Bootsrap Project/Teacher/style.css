@@ -1,0 +1,96 @@
+.outer {
+    padding-top: 60px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 50%;
+    height: 90vh;
+    padding-top: 12em;
+    text-align: center;
+
+}
+.right {
+    width: 50%;
+    height: 90vh;
+}
+.classbtn{
+   width: 10rem;
+   border-radius: 10px;
+   background-color: rgb(206, 154, 238);
+   border: none;
+   padding: 10px;
+   text-align: center;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.classbtn a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.classbtn a:hover{
+    color: white;
+}
+.classbtn:hover{
+    background-color: rgb(174, 0, 248);
+    color: white;
+}
+#class {
+    width: 100%;
+    height: 90vh;
+}
+.card-body {
+    background-color: rgba(255, 255, 255, 0.926);
+}.tite{
+    align-items: center;
+    position: relative;
+    left:39%;
+    justify-content: center;
+}
+.container{
+    align-items: center;
+    margin-left: 100px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 10px;
+    min-height:500px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0,0, 0.15) ;
+}
+.container thead tr{
+    background-color:#009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.container th, .container td{
+    padding: 12px 15px;
+    font-size: large;
+}
+.container tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.container tbody tr:hover{
+    color: #009879;
+}
+.container tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+    font-weight: bold;
+    color: #009879;
+}
+.container tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+.container tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
